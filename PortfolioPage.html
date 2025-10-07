@@ -6,7 +6,7 @@
   
   <style>
     body {
-      background-image: url('images/22904728.jpg');
+      background-image: url('images/BackgroundImg.jpg');
       background-size: cover;
       background-position: center;
       line-height: 1.5;
@@ -19,7 +19,7 @@
     .portfolio {
       display: grid;
       grid-template-columns: 1fr 2fr;
-      max-width: 900px;
+      max-width: 980px;
       margin: auto;
       padding: 20px;
       background: rgba(0, 0, 0, 0.288);
@@ -28,12 +28,12 @@
     .Experience{
       display: grid;
       grid-template-columns: 1fr 1fr 1fr;
-      font-size: 14px;
+      font-size: 16px;
     }
     .left {
       border-right: 2px solid #D9E1F2;
       padding-right: 40px;
-      padding-top: 70px;
+      padding-top: 20px;
     }
     .right {
       padding-left: 20px;
@@ -59,11 +59,24 @@
       color: #d0ebf7;      
       text-decoration: underline;
     }
+    .SubHeading{
+      color: #ffffff;
+      font-size: 15px;
+    }
+    img.profile {
+      width: 220px;
+      height: 200px;
+      border-radius: 50%;
+      display: block;
+      margin: 0 auto 80px auto;
+      box-shadow: 0 0 15px rgba(137, 207, 240, 0.4);
+    }
   </style>
 </head>
 <body>
   <div class="portfolio">
     <div class="left">
+      <img src="images/ProfilePic.jpg" class="profile"/>
       <h2>Skills</h2>
       <ul>
         <li>Programming Languages: Python, JavaScript, Flask</li>
@@ -90,17 +103,17 @@
 
         <li>
           <div class="Experience">
-            <div class="SubHeading">
+            <div class="SubHeading" style="border-right: 2px solid #D9E1F2;">
               <strong>Coding Instructor</strong> - Online
             </div>
-            <div class="SubHeading" style="text-align: center;">
+            <div class="SubHeading" style="text-align: center; border-right: 2px solid #D9E1F2;">
               <strong>Bright Champs</strong>
             </div>
             <div class="SubHeading" style="text-align: center;">
               <strong>Apr 2022 - Aug 2022</strong>
             </div>
           </div>
-          <p style="font-size: 14px ;">Skilled in designing and developing online coding 
+          <p style="font-size: 16px ;">Skilled in designing and developing online coding 
             classes for kids, utilizing interactivetools
             and project-basedlearning to foster a love for programming and STEM Education.<p>
         </li>
@@ -108,10 +121,10 @@
 
         <li>
           <div class="Experience">
-            <div class="SubHeading">
+            <div class="SubHeading" style="border-right: 2px solid #D9E1F2;">
               <strong>Software Engineer</strong>
             </div>
-            <div class="SubHeading" style="text-align: center;">
+            <div class="SubHeading" style="text-align: center; border-right: 2px solid #D9E1F2;">
               <strong>Aritha Consulting and Services PVT LTD</strong>
             </div>
             <div class="SubHeading" style="text-align: center;">
@@ -120,9 +133,9 @@
           </div>
         </li>
 
-        <div style="font-size:14px ;">
+        <div style="font-size:16px ;">
           <li>
-            <p><strong>KAFKA NOTIFICATION SERVICES </strong>- and maintained a notification 
+            <p><strong class="SubHeading">KAFKA NOTIFICATION SERVICES </strong>- and maintained a notification 
             service encompassing SMS, email and push notifications.
             for various client projects.
           </p>
@@ -137,9 +150,9 @@
           </li>
       </div>
 
-      <div style="font-size:14px ;">
+      <div style="font-size:16px ;">
         <li>
-          <p><strong>MEGDAP-VOICE COMPARISON </strong>- Built the logic and algorithm to compare audio sample
+          <p><strong class="SubHeading">MEGDAP-VOICE COMPARISON </strong>- Built the logic and algorithm to compare audio sample
             using the YIN algotithm and Python packages using toolkit like Librosa and Pyannote for speaker diarization. 
             Created customized commands to run the program. 
             Devised a similar index for every comparison.
@@ -147,11 +160,11 @@
         </li>
     </div>
 
-    <div style="font-size:14px ;">
+    <div style="font-size:16px ;">
       <li>
-        <p><strong>DEDUCE -TENNIS APP</strong>- Built the logic and algorithm to compare audio sample
-          using the YIN algotithm and Python packages. Created customized commands to run the program. 
-          Devised a similar index for every comparison.
+        <p>
+          <strong class="SubHeading">DEDUCE -TENNIS APP</strong>- Designed and built the Application using React Native by Implementing
+          state management like redux and the life cycle of Hooks.
       </p>
       </li>
     </div>
