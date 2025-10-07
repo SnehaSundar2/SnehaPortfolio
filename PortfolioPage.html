@@ -3,14 +3,18 @@
 <head>
   <meta charset="UTF-8">
   <title>Sneha - Portfolio</title>
+  
   <style>
     body {
-      background-color: rgb(102, 110, 180);
-      font-family: Arial, sans-serif;
+      background-image: url('images/22904728.jpg');
+      background-size: cover;
+      background-position: center;
       line-height: 1.5;
+      font-family: Arial, sans-serif;
+      color: #D9E1F2;
     }
     h1, h2 {
-      color: rgb(6, 21, 113);
+      color: #FFFFFF;
     }
     .portfolio {
       display: grid;
@@ -18,7 +22,7 @@
       max-width: 900px;
       margin: auto;
       padding: 20px;
-      background: white;
+      background: rgba(0, 0, 0, 0.288);
       border-radius: 8px;
     }
     .Experience{
@@ -27,7 +31,7 @@
       font-size: 14px;
     }
     .left {
-      border-right: 2px solid #cccccc;
+      border-right: 2px solid #D9E1F2;
       padding-right: 40px;
       padding-top: 70px;
     }
@@ -38,17 +42,27 @@
       text-align: center;
       margin-top: 20px;
       font-size: 15px;
-      color: gray;
+      background-color: rgb(64, 6, 97);
+      color:#89CFF0;
       grid-column: span 2;
     }
     li::marker{
-        color: rgb(6, 21, 113); ;
+        color:#89CFF0;
+    }
+    a {
+      color:  #89CFF0; 
+      text-decoration: none;    
+      font-weight: bold;
+    }
+
+    a:hover {
+      color: #d0ebf7;      
+      text-decoration: underline;
     }
   </style>
 </head>
 <body>
   <div class="portfolio">
-
     <div class="left">
       <h2>Skills</h2>
       <ul>
@@ -76,13 +90,13 @@
 
         <li>
           <div class="Experience">
-            <div>
+            <div class="SubHeading">
               <strong>Coding Instructor</strong> - Online
             </div>
-            <div style="text-align: center;">
+            <div class="SubHeading" style="text-align: center;">
               <strong>Bright Champs</strong>
             </div>
-            <div style="text-align: center;">
+            <div class="SubHeading" style="text-align: center;">
               <strong>Apr 2022 - Aug 2022</strong>
             </div>
           </div>
@@ -94,13 +108,13 @@
 
         <li>
           <div class="Experience">
-            <div>
+            <div class="SubHeading">
               <strong>Software Engineer</strong>
             </div>
-            <div style="text-align: center;">
+            <div class="SubHeading" style="text-align: center;">
               <strong>Aritha Consulting and Services PVT LTD</strong>
             </div>
-            <div style="text-align: center;">
+            <div class="SubHeading" style="text-align: center;">
               <strong>Aug 2022 - Nov 2022</strong>
             </div>
           </div>
@@ -126,7 +140,8 @@
       <div style="font-size:14px ;">
         <li>
           <p><strong>MEGDAP-VOICE COMPARISON </strong>- Built the logic and algorithm to compare audio sample
-            using the YIN algotithm and Python packages. Created customized commands to run the program. 
+            using the YIN algotithm and Python packages using toolkit like Librosa and Pyannote for speaker diarization. 
+            Created customized commands to run the program. 
             Devised a similar index for every comparison.
         </p>
         </li>
@@ -139,7 +154,7 @@
           Devised a similar index for every comparison.
       </p>
       </li>
-  </div>
+    </div>
 
       </ul>
 
@@ -155,7 +170,7 @@
 
       <h2>Contact</h2>
       <p>Email: <a href="mailto:SnehaS@gmail.com">SnehaS@gmail.com</a></p>
-      <p>Phone: +91 6360237740</p>
+      <p>Phone: <strong style="color:#89CFF0;">+91 6360237740</strong></p>
       <p>GitHub: <a href="https://github.com/SnehaSundar2" target="_blank">github.com/Sneha</a></p>
       <p>LinkedIn: <a href="https://linkedin.com/in/Sneha" target="_blank">linkedin.com/in/Sneha</a></p>
     </div>
